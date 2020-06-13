@@ -33,7 +33,7 @@ nav.menu{
     display: block; 
 }
 nav.menu ul{
-    color: rgb(102, 60, 5);
+    color: rgb(235, 151, 43);
     font-weight: 900;
     list-style: none;
     text-transform: uppercase;
@@ -41,15 +41,16 @@ nav.menu ul{
     top: 79px;
     left: 350px;
 }
-nav.menu li{
+nav.menu ul li{
     display: inline-block;
     background-color: rgb(27, 148, 148);
     padding: 5px;
     margin: 2px;
 }
-nav.menu li:hover{
+nav.menu ul li:hover{
     background-color: rgb(102, 60, 5);
     color: rgb(255, 255, 255);
+    margin: 15px;
 }
 /*-----------------------LISTA 1------------------------*/
 nav.lista1{
@@ -133,14 +134,48 @@ nav.lista5 ol:hover{
     opacity: 0;
     transition: 1s;
 }
-/*---------------------------IMG#PIE--------------------*/
-img#pie{
-    padding: 50px;
-    border: 2px solid black;
-}
 /*---------------------------VIDEO--------------------*/
 hgroup{
     margin: 60px 0px 0px -158px;
-    color: rgb(224, 138, 24);
+    color: rgb(235, 151, 43);
     margin-bottom: 100px;
+}
+/*-----------------------Cuadros----------------------*/
+table#cuadrotipos{
+    border: 1px solid rgb(255, 255, 255); 
+    border-spacing: 0px;
+    background-color: black;
+    float: right;
+    margin-top: -370px;
+}
+table#cuadrotipos caption h4{
+    border: 1px dashed black;
+    padding: 8px;
+    margin: 0px;
+    font-size: 10pt;
+    text-align: center;
+}
+table#cuadrotipos caption h4 span{
+    display: block;
+    float: right;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+table#cuadrotipos td{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    vertical-align: top;
+}
+table#cuadrotipos td.ci{
+    background: rgb(235, 151, 43);
+    font-style: italic;
+}
+table#cuadrotipos td.cd{
+    text-align: center;
+}
+/*-------------------------IMG#PIE--------------------*/
+img#pie{
+    padding: 50px;
+    border: 2px solid black;
 }
